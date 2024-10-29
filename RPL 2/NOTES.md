@@ -1,3 +1,8 @@
 ini untuk praktikum rekayasa perangkat lunak 2
 
--GAN (Generative Adversarial Network)
+Modul: 
+Java
+OOP
+
+Tools:
+Apache Netbeans (ver 21 or more)
