@@ -1,2 +1,3 @@
 # colpro 🔬
-college projects 
+
+This rep is for college projects ⚔️🖱️💾
