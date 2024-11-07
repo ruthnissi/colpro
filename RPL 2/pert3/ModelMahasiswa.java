@@ -1,9 +1,5 @@
 package com.mahasiswa.model;
 
-/**
- *
- * @author USER
- */
 public class ModelMahasiswa {
         private int id;
     private String npm;
