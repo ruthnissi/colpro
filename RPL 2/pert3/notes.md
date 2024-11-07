@@ -1,4 +1,4 @@
-This one projects are a bot tricky because we hv to do it sesuai flownya
+This one project is a bit tricky because we have to do it according to the rules
 
 *will be back to redo this 
 
