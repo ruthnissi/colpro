@@ -4,7 +4,7 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_db</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_db</property> <!--Perhatikan nama database apakah sesuai-->
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
 
@@ -25,6 +25,6 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mapping class -->
-        <mapping class="mahasiswa.model.ModelMahasiswa"/>
+        <mapping class="com.mahasiswa.model.ModelMahasiswa"/> <!--Perhatikan nama class apakah sesuai-->
     </session-factory>
 </hibernate-configuration>
