@@ -25,6 +25,6 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mapping class -->
-        <mapping class="com.mahasiswa.model.ModelMahasiswa"/> <!--Perhatikan nama class apakah sesuai-->
+        <mapping class="com.mahasiswa.model.ModelMahasiswa"/> <!--Perhatikan nama class apakah sesuai atau tidak-->
     </session-factory>
 </hibernate-configuration>
