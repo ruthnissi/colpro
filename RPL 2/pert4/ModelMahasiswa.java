@@ -3,7 +3,7 @@ package mahasiswa.model;
 import jakarta.persistence.*;
 /**
  *
- * @author akmal
+ * @author USER
  */
 
 @Entity
