@@ -4,7 +4,7 @@ import javax.swing.table.AbstractTableModel;
 import java.util.List;
 /**
  *
- * @author akmal
+ * @author USER
  */
 public class ModelTabelMahasiswa extends AbstractTableModel {
     private List<ModelMahasiswa> mahasiswaList;
