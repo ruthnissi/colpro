@@ -1,0 +1,14 @@
+// TODO add your handling code here:
+        String npm = getNpmField().getText();
+        String nama = getNamaField().getText();
+        int semester = Integer.parseInt(getSemesterField().getText());
+        float ipk = Float.parseFloat(getIpkField().getText());
+        ModelMahasiswa mahasiswa = new ModelMahasiswa(0, npm, nama, semester, ipk);
+        System.out.println(mahasiswa.getIpk());
+        System.out.println(mahasiswa.getNama());
+        System.out.println(mahasiswa.getSemester());
+        System.out.println(mahasiswa.getNpm());
+        
+        controller.addMhs(mahasiswa);
+        loadMahasiswaTable();
+    }
