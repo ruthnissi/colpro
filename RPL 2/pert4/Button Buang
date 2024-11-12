@@ -1,0 +1,25 @@
+// TODO add your handling code here:
+        // Membuat JTextField untuk memasukkan ID
+    JTextField idField = new JTextField(5);
+
+    // Membuat panel untuk menampung JTextField
+    JPanel panel = new JPanel();
+    panel.add(new JLabel("Masukkan ID yang ingin dihapus:"));
+    panel.add(idField);
+
+    // Menampilkan dialog box dengan JTextField, tombol OK, dan Cancel
+    int result = JOptionPane.showConfirmDialog(null, panel, 
+        "Hapus Mahasiswa", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+
+    // Jika tombol OK ditekan
+    if (result == JOptionPane.OK_OPTION) {
+        try {
+            // Mengambil input ID dan memanggil metode deleteMhs
+            int id = Integer.parseInt(idField.getText());
+            controller.deleteMhs(id);
+            JOptionPane.showMessageDialog(null, "Data berhasil dihapus.", "Sukses", JOptionPane.INFORMATION_MESSAGE);
+        } catch (NumberFormatException e) {
+            // Menangani error jika ID yang dimasukkan bukan angka
+            JOptionPane.showMessageDialog(null, "ID harus berupa angka.", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
