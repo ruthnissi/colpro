@@ -1,0 +1,22 @@
+.inputField{
+    padding: 8px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btnLogin{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(247, 210, 222);
+}
+
+.btnFrgt{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+}
+
+a{
+    text-decoration: slategray;
+}

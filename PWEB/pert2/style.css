@@ -1,0 +1,16 @@
+.inputField{
+    padding: 8px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btnSubmit{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+}
+
+a{
+    text-decoration: none;
+}
