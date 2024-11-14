@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.slim.js"
+        integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        crossorigin="anonymous"> </script>
+        <title>Pertemuan 3 | JS, JQuery, AJAX</title>
+        <script src="./oop.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("p").append("<b>Kata tambahan</b>");
+                });
+                $("#btn2").click(function(){
+                    $("ol").append("<li>List item</li>");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>Ini adalah paragraf</p>
+        <p>Ini adalah paragraf juga</p>
+
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ol>
+
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Button 2</button>
+    </body>
+</html>
+
