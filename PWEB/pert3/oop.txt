@@ -1,0 +1,42 @@
+function varDeclare(){
+                var x = 10
+                if(true){
+                    var x = 20;
+                    console.log("var dalam", x);
+                }
+                console.log("var luar", x);
+            }
+            function letDeclare(){
+                let x = 10
+                if(true){
+                    let x = 20;
+                    console.log("let dalam", x);
+                }
+                console.log("let luar", x);
+
+            }
+            function constDeclare(){
+                const x = 10
+                if(true){
+                    const x = 20;
+                    console.log("const dalam", x);
+                }
+                console.log("const luar", x);
+
+            }
+
+            varDeclare();
+            letDeclare();
+            constDeclare();
+
+            const a = 4
+            const b = 8
+            const kali = a * b;
+            const bagi = a /  b;
+            const mod = a % b;
+            const tambah = a + b;
+            const lebihKecil = a < b;
+            const lebihBesar = a >= b;
+
+            console.log("A modulo B =", mod);
+            console.log("A lebih kecil dari B =", lebihKecil);
