@@ -1,3 +1,9 @@
 https://www.youtube.com/watch?v=pyM2mhAA8SI
 
 dont sebar2 ya
+
+yang perlu di note:
+tambahin dependency + parent di pom.xml trus clean and build project pert5 terlebih dahulu baru kita lanjut tambahin codes, setelah codes kita tambahin folder resources di main file trus masukkin application properties
+then run the main file
+
+oh and don't forget to make the database in mysql, I use the previous database and table
