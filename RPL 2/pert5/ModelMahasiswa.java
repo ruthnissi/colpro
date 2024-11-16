@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+// Bagian ini sama seperti pert4, ditambahkan repository
 package com.mahasiswa.model;
 
 import jakarta.persistence.*;
