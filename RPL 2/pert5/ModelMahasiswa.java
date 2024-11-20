@@ -2,10 +2,6 @@
 package com.mahasiswa.model;
 
 import jakarta.persistence.*;
-/**
- *
- * @author USER
- */
 
 @Entity
 @Table(name = "mahasiswa")
