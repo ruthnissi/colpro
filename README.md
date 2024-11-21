@@ -11,3 +11,6 @@ Can we see our commit logs??? WHERE IS ITTT
 
 
 I already knoww lololollolo
+
+
+don't have any energy to make commits today 
