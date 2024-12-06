@@ -37,5 +37,6 @@ public class ModelMahasiswa {
         this.semester = semester;
         this.ipk = ipk;
     }
-    
+
+    //getter and setters
 }
